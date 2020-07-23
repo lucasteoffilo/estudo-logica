@@ -1,0 +1,13 @@
+package controller;
+
+public class questao09 {
+
+	public static void main(String[] args) {
+
+		int primeiro = 1, razao = 2, resp;
+		
+		resp = primeiro + (n - 1) * razao;
+		
+	}
+
+}

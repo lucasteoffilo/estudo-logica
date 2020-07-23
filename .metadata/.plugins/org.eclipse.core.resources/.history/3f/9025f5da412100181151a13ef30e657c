@@ -1,0 +1,22 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao11 {
+
+	public static void main(String[] args) {
+
+		int num1, num2, num3;
+		num1 = Teclado.lerInt("Informe o número de uma casa.");
+		num2 = Teclado.lerInt("Informe o número de outra casa.");
+		num3 = Teclado.lerInt("Informe o número de mais uma casa.");
+		if (num1 >= 100 && num2 >= 100 && num3 >= 100) {
+			System.out.println("A primeira centena é: " + num1 / 100);
+			System.out.println("A segunda centena é: " + num2 / 100);
+			System.out.println("A terceira centena é: " + num3 / 100);
+		} else {
+			System.out.println("Um ou mais números informados não possuem centenas.");
+		}
+	}
+
+}

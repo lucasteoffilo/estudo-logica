@@ -1,0 +1,16 @@
+package controller;
+
+public class Questao10 {
+
+	public static void main(String[] args) {
+
+		int i = 0;
+		
+		while (i <= 15) {
+			System.out.println("3 elevado à " + i + " é igual a: " + Math.pow(3, i));
+			i = i + 1;
+		}
+		
+	}
+
+}

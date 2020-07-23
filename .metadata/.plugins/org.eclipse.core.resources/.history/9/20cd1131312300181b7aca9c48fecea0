@@ -1,0 +1,24 @@
+package controller;
+
+public class Questao10B {
+
+	public static void main(String[] args) {
+
+		int i = 0, a = 3, result = 0, aux;
+		aux = result;
+		
+		while (i <= 15) {
+			
+			if (i == 0) {
+				result = 3 * i;
+				System.out.println("3 elevado à 0 é igual a: " + result);
+				i = i + 1;
+			} else {
+				result = a * i + aux;
+				System.out.println("3 elevado à " + i + " é igual a: " + result);
+				i = i + 1;
+			}
+
+		}
+	}
+}

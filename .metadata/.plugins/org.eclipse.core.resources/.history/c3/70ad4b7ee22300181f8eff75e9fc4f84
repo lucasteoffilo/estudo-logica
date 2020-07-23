@@ -1,0 +1,13 @@
+package controller;
+
+public class Questao11 {
+
+	public static void main(String[] args) {
+
+		int b = 2, e = 10, i;
+		
+		while ()
+		
+	}
+
+}

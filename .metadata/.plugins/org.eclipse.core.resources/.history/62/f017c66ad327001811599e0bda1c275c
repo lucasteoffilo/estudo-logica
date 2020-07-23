@@ -1,0 +1,16 @@
+package controller;
+
+public class Questao03 {
+
+	public static void main(String[] args) {
+
+		int i = 1, soma = i;
+		
+		do { 
+			soma = soma + i;
+			i++;
+		} while (i <= 5);
+		System.out.println("A soma dos cinco primeiros números inteiros é: " + soma);
+	}
+
+}

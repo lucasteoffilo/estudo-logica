@@ -1,0 +1,45 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao12 {
+
+	public static void main(String[] args) {
+
+		double i = 1, n, n2, n3, maior, menor, med;
+
+		if (n < 0) {
+			i = n;
+		}
+		if (n2 < 0) {
+			i = n2;
+		}
+		if (n3 < 0) {
+			i = n3;
+			
+		while (i >= 1) {
+			n = Teclado.lerDouble("Informe um número qualquer maior que 0.");
+			n2 = Teclado.lerDouble("Informe outro número qualquer maior que 0.");
+			n3 = Teclado.lerDouble("Informe mais um número qualquer maior que 0.");
+
+			maior = n;
+			menor = n;
+			if (n2 > maior) {
+				maior = n2;
+			}
+			if (n3 > maior) {
+				maior = n3;
+			}
+			if (n2 < menor) {
+				menor = n2;
+			}
+			if (n3 < menor) {
+				menor = n3;
+			}
+			med = (n + n2 + n3) / 3;
+
+			System.out.println("Maior número: " + maior + " Menor número: " + menor);
+			System.out.println("Média: " + med);
+		}
+	}
+}

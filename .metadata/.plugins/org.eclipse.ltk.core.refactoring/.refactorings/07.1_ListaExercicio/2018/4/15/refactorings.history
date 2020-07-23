@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;util&apos; to &apos;08.2_ListaFixacao/src&apos;&#x0D;&#x0A;- Original project: &apos;07.1_ListaExercicio&apos;&#x0D;&#x0A;- Destination element: &apos;08.2_ListaFixacao/src&apos;&#x0D;&#x0A;- Original element: &apos;07.1_ListaExercicio/src/util&apos;" description="Copy package" destination="=08.2_ListaFixacao/src" element1="/src&lt;util" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1523313828541" version="1.0"/>
+</session>

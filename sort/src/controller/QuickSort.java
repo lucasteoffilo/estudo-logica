@@ -1,0 +1,71 @@
+package controller;
+import util.teclado;
+public class QuickSort {
+private int array[];
+private int comprimento;
+
+public void sort(int[] inputArr) {
+	if(inputArr== null || inputArr.length==0) {
+		return;
+		
+	}
+	this.array=inputArr;
+	comprimento =inputArr.length;
+	QuickSort(0,comprimento-1);
+	
+}
+public void QuickSort(int menorIndice,int maiorIndice) {
+	int i=menorIndice;
+	int j=maiorIndice;
+	
+	int pivo =array[menorIndice+(maiorIndice-menorIndice)/2];
+	
+	while(i<= j) {
+		/**
+		 * Em cada loop,vamos identificar um
+		 * numero a esquerda que é maior que o pivô e um numero a
+		 * direita que é menor que o 
+		 * pivô e vamos trocá-los
+		 */
+	while (array[i] < pivo) {
+		i++;
+		
+	}
+	while (array[j]>pivo) {
+		j--;
+		
+	}
+	if(i<=j) {
+		trocaNumeros(i,j);
+		i++;
+		j--;
+		
+	}
+	
+	}
+	if (menorIndice <j )
+		QuickSort(menorIndice,j);
+	if(i<maiorIndice)
+		QuickSort(i,maiorIndice);
+	
+	
+}
+private void trocaNumeros (int i,int j) {
+	int temp =array [i];
+	array[i] = array [j];
+	array[j]=temp;
+	
+}
+public static void main(String[] args) {
+	QuickSort sorter =new QuickSort();
+	double[] input = 
+			sorter.sort(input);
+	for(int i:input) {
+		System.out.println(i);
+		System.out.println("");
+	}
+	
+	
+}
+
+}

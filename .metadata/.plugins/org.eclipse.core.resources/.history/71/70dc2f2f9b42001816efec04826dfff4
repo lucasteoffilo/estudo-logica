@@ -1,0 +1,19 @@
+package controller;
+
+public class Questao08 {
+
+	public static void main(String[] args) {
+		/*
+		 * 8) Desenvolver um programa que pergunte o conteúdo de duas matrizes a e b,
+		 * cada uma com 5 linhas e 3 colunas, construa uma matriz c de mesma dimensão, a
+		 * qual é formada pela soma dos elementos da matriz a com a matriz b. Apresentar
+		 * ao final o conteúdo das três matrizes.
+		 */
+
+		double a[][] = new double [5][3];
+		double b[][] = new double [5][3];
+		double c[][] = new double [5][3];
+		
+	}
+
+}

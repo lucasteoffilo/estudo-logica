@@ -1,0 +1,14 @@
+package controller;
+
+public class Questao06 {
+
+	public static void main(String[] args) {
+
+		double i = 2;
+		do {
+			System.out.println("O quadrado de " + i + " é: " + Math.sqrt(i));
+			i++;
+		} while (i <= 50);
+	}
+
+}

@@ -1,0 +1,20 @@
+package controller;
+
+import util.Teclado;
+
+public class OperadorLogicoXou {
+
+	public static void main(String[] args) {
+
+		int num;
+		num = Teclado.lerInt("Informe um número.");
+
+		if ((num < 80) ^ (num > 60)) {
+			System.out.println("O número é menor que 80 ou maior que 60, mas não ambos.");
+		} else {
+			System.out.println("O número está entre 60 e 80.");
+		}
+
+	}
+
+}

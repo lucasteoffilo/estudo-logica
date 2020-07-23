@@ -1,0 +1,20 @@
+package controller;
+
+import util.Teclado;
+
+public class questao03 {
+
+	public static void main(String[] args) {
+
+		double peso, alt, resp1, resp2;
+		
+		peso = Teclado.lerDouble("Informe o seu peso em quilos.");
+		alt = Teclado.lerDouble("Informe sua altura em metros.");
+		resp1 = (peso*1000);
+		resp2 = (alt*100);
+		
+		System.out.println("Seu peso em gramas é: "+resp1+" gramas."+" E sua altura em centímetros é: "+resp2+" centímetros.");
+		
+	}
+
+}

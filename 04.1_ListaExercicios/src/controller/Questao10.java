@@ -1,0 +1,18 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao10 {
+
+	public static void main(String[] args) {
+		int num1, num2;
+		num1 = Teclado.lerInt("Informe um número.");
+		num2 = Teclado.lerInt("Informe outro número.");
+		if (num1 % num2 == 0) {
+			System.out.println(num2 + " é um divisor de " + num1);
+		} else {
+			System.out.println(num2 + " não é um divisor de " + num1);
+		}
+	}
+
+}

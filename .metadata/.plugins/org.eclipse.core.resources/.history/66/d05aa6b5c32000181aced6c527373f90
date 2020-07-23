@@ -1,0 +1,43 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao13 {
+
+	public static void main(String[] args) {
+
+		int a, b, c, primeiro, segundo, terceiro;
+		a = Teclado.lerInt("Informe um número."); //3 
+		b = Teclado.lerInt("Informe outro número."); //2 
+		c = Teclado.lerInt("Informe outro número."); //1
+		
+		primeiro = a;
+		segundo = a;
+		terceiro = a;
+		
+		if (b < primeiro) {
+			primeiro = b;
+		}
+		if (c < primeiro) {
+			primeiro = c;
+		}
+		
+		if (b > primeiro) {
+			segundo = b;
+		}
+		if (c > primeiro) {
+			segundo = c;
+		}
+		
+		if (b > segundo) {
+			terceiro = b;
+		}
+		if (c > segundo) {
+			terceiro = c;
+		}
+		System.out.println("1º = " + primeiro);
+		System.out.println("2º = " + segundo);
+		System.out.println("3º = " + terceiro);
+	}
+
+}

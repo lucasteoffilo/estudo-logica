@@ -1,0 +1,16 @@
+package controller;
+
+public class Questao10B {
+
+	public static void main(String[] args) {
+
+		int i = 0, aux = 3;
+		
+		while (i <= 15) {
+			if (i == 0) {
+				System.out.println("");
+			}
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package controller;
+
+public class Questao14 {
+
+	public static void main(String[] args) {
+
+		int n = 5, f = 4, aux;
+		
+		while (f > 0) {
+			aux = n * f;
+			f = f - 1;
+			aux = aux * f;
+		}
+		System.out.println("O fator de 5 é igual a: " + f);
+	}
+
+}

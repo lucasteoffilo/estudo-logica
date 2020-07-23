@@ -1,0 +1,19 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao04 {
+
+	public static void main(String[] args) {
+
+		double num;
+		num = Teclado.lerInt("Informe um número.");
+		if (num%4==0 && num%5==0) {
+			System.out.println("O número informado é divisivel por 4 e 5." + 
+		"/ O número informado foi: " + num);
+		}else {
+			System.out.println("O valor não é divisivel por 4 e 5");
+		}
+	}
+
+}

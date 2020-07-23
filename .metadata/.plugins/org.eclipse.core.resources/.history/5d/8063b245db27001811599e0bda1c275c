@@ -1,0 +1,22 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao10 {
+
+	public static void main(String[] args) {
+
+		int a, s, i = 0;
+		a = Teclado.lerInt("Informe o primeiro termo: ");
+		s = Teclado.lerInt("Informe o segundo termo: ");
+		System.out.println(a);
+		System.out.println(s);
+		do {
+			a = a + s;
+			s = a - s;
+			i++;
+			System.out.println(a);
+		} while (i <= 13);
+	}
+
+}

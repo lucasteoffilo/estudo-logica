@@ -1,0 +1,30 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao08 {
+
+	/*
+	 * Desenvolver um programa que apresente o valor de uma potência de uma base
+	 * qualquer elevada a um expoente qualquer, ou seja, de be. (Não utilize
+	 * Math.pow();)
+	 */
+	public static void main(String[] args) {
+
+		double b = 1, e, i = 1, aux = b;
+		b = Teclado.lerDouble("Informe o valor da base: ");
+		e = Teclado.lerDouble("Informe o valor do expoente: ");
+		if (e != 0) {
+
+			do {
+				aux = aux * b;
+				i++;
+			} while (i <= e);
+
+			System.out.println(b + " elevado à " + e + " = " + aux);
+		} else {
+			System.out.println(b + " elevado à zero = 1");
+		}
+	}
+
+}

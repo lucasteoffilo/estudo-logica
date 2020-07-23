@@ -1,0 +1,19 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao02 {
+
+	public static void main(String[] args) {
+
+		String capital;
+		capital = Teclado.lerTexto("Informe qual é a capital do Brasil.");
+		if ((capital.equals("Brasilia") || capital.equals("Brasília") || capital.equals("brasilia")
+				|| capital.equals("brasília"))) {
+			System.out.println("Parabéns! Você acertou.");
+		} else {
+			System.out.println("Você errou.");
+		}
+	}
+
+}

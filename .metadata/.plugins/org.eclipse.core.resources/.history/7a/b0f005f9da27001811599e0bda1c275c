@@ -1,0 +1,16 @@
+package controller;
+
+public class Questao02 {
+
+	public static void main(String[] args) {
+
+		int i = 2, soma = i;
+		
+		do {
+			soma = soma + i;
+			i = i + 2;
+		} while ( i <= 500);
+		System.out.println("A soma dos valores pares de 0 à 500 é: " + soma);
+	}
+
+}

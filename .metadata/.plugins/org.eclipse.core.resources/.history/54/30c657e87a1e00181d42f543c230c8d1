@@ -1,0 +1,26 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao07 {
+
+	public static void main(String[] args) {
+		
+		int num1, num2;
+		num1 = Teclado.lerInt("Informe um número");
+		num2 = Teclado.lerInt("Informe um número");
+		if (num1 >= 0) {
+			System.out.println("O número positivo é: " + num1);
+		}else {
+			if (num2 >=0) {
+				System.out.println("O número positivo é: " + num2);
+			}else {
+				System.out.println("Não foram encontrados números positivos.");
+				
+			}
+			
+		}
+		
+	}
+
+}

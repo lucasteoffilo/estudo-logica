@@ -1,0 +1,17 @@
+package controller;
+
+public class Questao11 {
+
+	public static void main(String[] args) {
+
+		int b = 2, e = 10, i = 1, aux = 0;
+		
+		while (i <= e) {
+			aux = b*e;
+			i = i + 1;
+		}
+		System.out.println("A potência de " + b + " elevado a " + e + " é : " + aux);
+		
+	}
+
+}

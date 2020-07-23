@@ -1,0 +1,17 @@
+package controller;
+
+public class Questao09 {
+
+	public static void main(String[] args) {
+
+		int a = 1, s = 0, i = 0;
+		System.out.println(a);
+		do {
+			a = a + s;
+			s = a - s;
+			i++;
+			System.out.println(a);
+		} while (i <= 13);
+	}
+
+}

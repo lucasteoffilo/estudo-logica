@@ -1,0 +1,19 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao03 {
+
+	public static void main(String[] args) {
+
+		double num;
+		num = Teclado.lerDouble("Informe um número");
+		// Números 'pares' - NUM / 2 = Resto 0
+		if (num % 2 == 0) {
+			System.out.println("O número é par");
+		} else {
+			System.out.println("O número é impar");
+		}
+	}
+
+}

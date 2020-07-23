@@ -1,0 +1,21 @@
+package controller;
+
+import util.Teclado;
+
+public class questao10 {
+
+	public static void main(String[] args) {
+
+		int eleitores, votB, nul, val;
+		
+		eleitores = Teclado.lerInt("Informe o número de eleitores do município");
+		votB = Teclado.lerInt("Informe o número de votos brancos");
+		nul = Teclado.lerInt("Informe o número de votos nulos");
+		val = Teclado.lerInt("Informe o número de votos válidos");
+		
+		System.out.println("Percentual de votos brancos: "+ (eleitores%votB));
+		System.out.println("Percentual de votos nulos: "+ (eleitores%nul));
+		System.out.println("Percentual de votos validos: "+ (eleitores%val));
+	}
+
+}

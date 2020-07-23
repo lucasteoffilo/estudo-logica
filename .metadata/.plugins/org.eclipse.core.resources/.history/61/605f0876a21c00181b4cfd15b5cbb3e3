@@ -1,0 +1,19 @@
+package controller;
+
+import util.Teclado;
+
+public class questao09 {
+
+	public static void main(String[] args) {
+
+			int t, r, termo10;
+			
+			t = Teclado.lerInt("Informe o valor do 1º termo.");
+			r = Teclado.lerInt("Informe o valor da razão.");
+			
+			termo10 = (r*3) + t;
+			
+			System.out.println("O valor do 10º termo é: " + termo10);
+	}
+
+}

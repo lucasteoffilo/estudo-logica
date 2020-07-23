@@ -1,0 +1,21 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao12 {
+
+	public static void main(String[] args) {
+
+		double i = 1, n, n2, n3, maior, menor, med;
+
+		while (i > 0) {
+			n = Teclado.lerDouble("Informe um número qualquer maior que 0.");
+			n2 = Teclado.lerDouble("Informe outro número qualquer maior que 0.");
+			n3 = Teclado.lerDouble("Informe mais um número qualquer maior que 0.");
+
+			if (n > n1) {
+				maior = n
+			}
+		}
+	}
+}

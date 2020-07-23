@@ -1,0 +1,22 @@
+package controller;
+
+import util.Teclado;
+
+public class OperadorLogicoNao {
+
+	public static void main(String[] args) {
+
+		int a, b, c, x;
+		a = Teclado.lerInt("Informe o primeiro número:");
+		b = Teclado.lerInt("Informe o segundo número:");
+		x = Teclado.lerInt("Informe o terceiro número:");
+		if (!(x > 5)) {
+			c = (a + b) * x;
+		} else {
+			c = (a - b) * x;
+		}
+		System.out.println("Valor de 'C' é: " + c);
+
+	}
+
+}

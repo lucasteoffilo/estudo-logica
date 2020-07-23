@@ -1,0 +1,20 @@
+package controller;
+
+import util.Teclado;
+
+public class questao06 {
+
+	public static void main(String[] args) {
+		
+		String nomeVende;
+		double salFixo, totalVenda;
+				
+		nomeVende = Teclado.lerTexto("Informe seu nome.");
+		salFixo = Teclado.lerDouble("Infome seu salário base.");
+		totalVenda = Teclado.lerDouble("Informe o valor de suas vendas neste mês.");
+		
+		System.out.println(nomeVende+", seu salário base é: R$"+salFixo+" e sua comissão foi de R$"+(totalVenda*15)/100 +". O valor total do seu salário este mês, foi de R$"+(totalVenda*15)/100+(+salFixo));
+		
+	}
+
+}

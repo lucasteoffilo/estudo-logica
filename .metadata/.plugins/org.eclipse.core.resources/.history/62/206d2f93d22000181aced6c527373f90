@@ -1,0 +1,23 @@
+package controller;
+
+import util.Teclado;
+
+public class Questao05 {
+
+	public static void main(String[] args) {
+
+		double nota1, nota2, nota3, nota4, med;
+		nota1 = Teclado.lerDouble("Informe sua primeira nota.");
+		nota2 = Teclado.lerDouble("Informe sua segunda nota.");
+		nota3 = Teclado.lerDouble("Informe sua terceira nota.");
+		nota4 = Teclado.lerDouble("Informe sua quarta nota.");
+		med = (nota1 + nota2 + nota3 + nota4) / 4;
+		if (med >= 5) {
+			System.out.println("Você foi aprovado. Parabéns!");
+			System.out.println("Sua média foi: " + med);
+		} else {
+			System.out.println("Você não foi aprovado. Sua média final foi: " + med);
+		}
+	}
+
+}

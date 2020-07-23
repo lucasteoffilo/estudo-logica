@@ -1,0 +1,18 @@
+package controller;
+
+import util.Teclado;
+
+public class questao08 {
+
+	public static void main(String[] args) {
+
+		double precoCust, valorVend, perc;
+		
+		precoCust = Teclado.lerDouble("Informe o custo do produto");
+		perc = Teclado.lerDouble("Informe um valor percentual");
+		valorVend = (precoCust*perc) /100;
+		
+		System.out.println("O valor de venda do produto é de R$"+(valorVend+precoCust));
+	}
+
+}

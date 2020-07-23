@@ -1,0 +1,26 @@
+package controller;
+
+import util.Teclado;
+
+public class CalcImpostos {
+
+	public static void main(String[] args) {
+		
+		double cofins, csll, inss, irpj, pis, iss, valor;
+		
+		valor = Teclado.lerDouble("Insira o valor em 'R$'");
+		cofins = (valor*3)/100;
+		csll = (valor*1)/100;
+		inss = (valor*3.5)/100;
+		irpj = (valor*4.8)/100;
+		pis = (valor*0.65)/100;
+		iss = (valor*5)/100;
+					
+		System.out.println("COFINS: R$"+cofins);
+		System.out.println("CSLL: R$"+csll);
+		System.out.println("INSS: R$"+inss);
+		System.out.println("IRPJ: R$"+irpj);
+		System.out.println("PIS: R$"+pis);
+		System.out.println("ISS: R$"+iss);
+		}
+}
